@@ -25,4 +25,9 @@ end
     @bear_object.get_fish(@river_object)
     assert_equal([@fish_object_3],@bear_object.food_array)
   end
+  def test_get_fish__river
+    @bear_object.get_fish(@river_object)
+    assert_equal(2,@river_object.count_fish)
+  end
+
 end
