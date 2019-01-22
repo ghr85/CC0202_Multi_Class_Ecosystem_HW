@@ -10,4 +10,8 @@ class Bear
    @type_string = type_string
    @food_array = []
  end
+
+ def get_fish(river_object)
+   @food_array << river_object.fish_objects_array.pop
+ end
 end

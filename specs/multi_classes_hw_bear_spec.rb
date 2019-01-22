@@ -21,4 +21,8 @@ end
     assert_equal("Paddington",@bear_object.name_string)
   end
 
+  def test_get_fish__bear
+    @bear_object.get_fish(@river_object)
+    assert_equal([@fish_object_3],@bear_object.food_array)
+  end
 end

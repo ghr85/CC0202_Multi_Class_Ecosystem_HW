@@ -26,16 +26,23 @@ This time you'll also need to include a class diagram using UML as part of the p
 
 ## Notes
 
-Order of approach:
+* Splat! - The splat operator comes in handy when an unknown number of arguments is expected to be indexed in an array. This also seems to exist in Java and Javascript so presumed safe to use.
+* Start with those classes which have zero dependencies then work your way up to the most.
+* As you've used Require, methods for each relative class are available throughout all.
+
+
+###Order of approach:
 
 * Write it down on paper first - split it up into attributes and behaviours, understand what needs built.
-* Create UML mark-up detailing class interaction
+* Create Class Diagram utilising UML detailing classes & interaction
 * Set up directory, spec files and source code files, create Git repository and get that first commit in.
+* Begin with the classes which have zero dependencies and then work your way up.
 * Get your test requirements, file requirements and headers down then draw down from MiniTest to create test class.
-* Create setup data in test file to be used - create an @object of type to be tested.
+* Create setup data in each test file to be used - create an @object of each class necessary to be tested.
 * Create class in source file. Create initialize method.
 * Begin creating test functions, let it fail, then code it to pass.
 * Commit once passed. Keep a record, keep it clean.
+
 
 
 
