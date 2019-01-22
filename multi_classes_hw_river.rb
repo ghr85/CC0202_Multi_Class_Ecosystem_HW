@@ -14,7 +14,7 @@ attr_accessor :fish_objects_array
   end
 
   def count_fish
-    return @fish_objects_array.count
+    return @fish_objects_array.count #count the number of elements in the fish array
   end
 
 end

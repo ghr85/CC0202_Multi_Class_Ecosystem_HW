@@ -22,8 +22,6 @@ class RiverTest < MiniTest::Test #inherit methods from minitest package
   end
 
   def test_count_fish # test ability to count fish in array
-
     assert_equal(3,@river_object.count_fish)
-    
   end
 end
