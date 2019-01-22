@@ -12,6 +12,7 @@
 
 You are given details of an ecosystem to be created. This ecosystem contains 3 classes
 which need to be created and interact with one another through their methods and attributes.
+The classes defined are Bear, River and Fish - each with their own requisite attributes and functions as per MVP.
 
 
 Stick to your principles:
@@ -31,7 +32,7 @@ This time you'll also need to include a class diagram using UML as part of the p
 * As you've used Require, methods for each relative class are available throughout all.
 
 
-###Order of approach:
+### Order of approach:
 
 * Write it down on paper first - split it up into attributes and behaviours, understand what needs built.
 * Create Class Diagram utilising UML detailing classes & interaction
